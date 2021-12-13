@@ -26,7 +26,7 @@ import { portfolioData, skillsData, testimonialsData } from "./data.js";
         <img src="./assets/img/portfolio/${item.poster_path}" class="img-fluid" alt="${item.name}" />
         <div class="portfolio-links">
           <a href="./assets/img/portfolio/${item.poster_path}" data-gallery="portfolioGallery"
-            class="portfolio-lightbox" title="${item.name}"><i class="bx bx-plus"></i></a>
+            class="portfolio-lightbox" title="${item.name}"><i class='bx bx-search-alt-2'></i></a>
           <a href="./portfolio-details.html?pid=${item.pid}" title="More Details"><i class="bx bx-link"></i></a>
         </div>
       </div>
