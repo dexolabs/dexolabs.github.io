@@ -568,13 +568,14 @@ section-title
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 25px;
-  height: 180px;
+  height: 185px;
   display: flex;
   align-items: center;
 }
 
 .portfolio .portfolio-item img {
-  height: 180px;
+  height: 185px;
+  border-radius: 2px;
   /* object-fit: cover; */
 }
 
@@ -1110,7 +1111,6 @@ section-title
   color: #fff;
 }
 
-.contact .php-email-form,
 .contact .contactUsForm {
   width: 100%;
   padding: 30px;
@@ -1118,12 +1118,10 @@ section-title
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group,
 .contact .contactUsForm .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate,
 .contact .contactUsForm .validate {
   display: none;
   color: red;
@@ -1132,7 +1130,6 @@ section-title
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message,
 .contact .contactUsForm .error-message {
   display: none;
   color: #fff;
@@ -1142,12 +1139,10 @@ section-title
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br,
 .contact .contactUsForm .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message,
 .contact .contactUsForm .sent-message {
   display: none;
   color: #fff;
@@ -1157,7 +1152,6 @@ section-title
   font-weight: 600;
 }
 
-.contact .php-email-form .loading,
 .contact .contactUsForm .loading {
   display: none;
   background: #fff;
@@ -1165,7 +1159,6 @@ section-title
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before,
 .contact .contactUsForm .loading:before {
   content: "";
   display: inline-block;
@@ -1179,18 +1172,14 @@ section-title
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form .form-group,
 .contact .contactUsForm .form-group {
   margin-bottom: 15px;
 }
 
-.contact .php-email-form label,
 .contact .contactUsForm label {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea,
 .contact .contactUsForm input,
 .contact .contactUsForm textarea {
   border-radius: 0;
@@ -1198,17 +1187,14 @@ section-title
   font-size: 14px;
 }
 
-.contact .php-email-form input,
 .contact .contactUsForm input {
   height: 44px;
 }
 
-.contact .php-email-form textarea,
 .contact .contactUsForm textarea {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type="submit"],
 .contact .contactUsForm button[type="submit"] {
   background: #149ddd;
   border: 0;
@@ -1218,7 +1204,6 @@ section-title
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover,
 .contact .contactUsForm button[type="submit"]:hover {
   background: #37b3ed;
 }
@@ -1331,6 +1316,10 @@ section-title
 # Margin, Padding for All Sections
 --------------------------------------------------------------*/
 @media screen and (max-width: 576px) {
+  p, ul {
+    font-size: 15px;
+  }
+
   section {
     padding: 30px 0;
   }
@@ -1341,5 +1330,14 @@ section-title
 
   .portfolio-details .portfolio-info {
     padding: 25px 18px 20px 18px;
+  }
+
+  .contact {
+    padding-bottom: 90px;
+  }
+
+  .contact .info,
+  .contact .contactUsForm {
+    padding: 30px 20px; 
   }
 }
