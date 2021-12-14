@@ -404,7 +404,6 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-section-title
 
 /*--------------------------------------------------------------
 # Facts
@@ -1310,6 +1309,7 @@ section-title
 }
 
 #footer .copyright {
+  padding-top: 3px;
   text-align: center;
   font-family: "Ubuntu", sans-serif;
 }
@@ -1367,7 +1367,7 @@ section-title
 
   .portfolio .portfolio-item img {
     width: 100%;
-    height: auto;
+    max-height: 185px;
   }
 
   .portfolio-details .portfolio-info {
