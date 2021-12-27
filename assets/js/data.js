@@ -69,6 +69,29 @@ export var portfolioData = [
     ],
   },
   {
+    pid: "785592",
+    name: "Cover Letter Automation",
+    description: `Created an Automation to automate engineer's hustle to generate cover letter manually for each and every time when applying in a company. <br />
+    With this Automation, User provides his own cover letter format with details but instead of personal details, he'll be mentioning some keywords which will be replaced by his original details. At the end, User will get the Cover Letter in PDF Format.<br />
+    <strong>Inputs:</strong> CompanyName, JobRole, Name, Email, Phone & Address.<br />
+    <strong>Prerequisite:</strong> User needs to set the DownloadPath where the pdf file will be download and IntendedPath where he want that pdf to be store.`,
+    demo_link: "Soon",
+    source_code: "",
+    category_name: "RPA Automation",
+    category_classname: "filter-rpa",
+    client: "Self-Project",
+    project_date: "October 07, 2021",
+    poster_path: "cover-letter-automation/00_CoverLetterAutomation.jpg",
+    technologies: [
+      "Robotic Process Automation",
+      "Automation Anywhere",
+      "MS-Word",
+    ],
+    homescreen_overview: ``,
+    youtube_overview: ``,
+    images: ["cover-letter-automation/00_CoverLetterAutomation.jpg"],
+  },
+  {
     pid: "372598",
     name: "Isohack2.O - A 36 Hour Hackathon",
     description: `Created the interactive Hackathon Website for the College Event called ISOHACK 2.0 - A 36 Hours Hackathon.<br/>
@@ -95,28 +118,6 @@ export var portfolioData = [
       "isohack2.O/Isohack_Tablet.png",
       "isohack2.O/Isohack_Phone.png",
       "isohack2.O/Isohack_Gallery.jpg",
-    ],
-  },
-  {
-    pid: "785592",
-    name: "Cover Letter Automation",
-    description: `Created a Coffee Shop Webpage using Materialize CSS Framework in which beautyful coffee cards, parallax and lot more stuff..`,
-    demo_link: "https://rishi6071.github.io/coffeeking",
-    source_code:
-      "https://github.com/rishi6071/frontend-designs/tree/master/coffee-king-frontend",
-    category_name: "Web Design",
-    category_classname: "filter-rpa",
-    client: "Self-Project",
-    project_date: "March 16, 2020",
-    poster_path: "cover-letter-automation/00_CoverLetterAutomation.png",
-    technologies: ["HTML-5", "CSS-3", "MaterializeCSS", "JavaScript"],
-    homescreen_overview: ``,
-    youtube_overview: ``,
-    images: [
-      "cover-letter-automation/00_CoverLetterAutomation.png",
-      "portfolio-details-1.jpg",
-      "portfolio-details-2.jpg",
-      "portfolio-details-3.jpg",
     ],
   },
   {
@@ -147,6 +148,25 @@ export var portfolioData = [
       "forex-currency-converter/Forex_Desktop.png",
       "forex-currency-converter/Forex_Phone.png",
     ],
+  },
+  {
+    pid: "180197",
+    name: "Instagram Automation",
+    description: `Created a very useful Automation for Instagram users or influencers who want something to like or comment each & every post of a particular user. <br/>
+    With this Automation, user will give instagram username of other person and bot will open that profile and go through with each & every post to like. <br />
+    For Comments, we have another bot which takes same input as previous and there is a common dataset of comments (user can manipulate it), from that dataset comments will be taken randomly and start commenting all post of that user. <br />
+    <strong>Prerequisite:</strong> Instagram account of Bot Runner must be logged in.`,
+    demo_link: "Soon",
+    source_code: "",
+    category_name: "RPA Automation",
+    category_classname: "filter-rpa",
+    client: "Self-Project",
+    project_date: "Dec 15, 2021",
+    poster_path: "instagram-automation/00_Instagram_Automation.png",
+    technologies: ["Robotic Process Automation", "Automation Anywhere"],
+    homescreen_overview: ``,
+    youtube_overview: ``,
+    images: ["instagram-automation/00_Instagram_Automation.png"],
   },
   {
     pid: "106448",
@@ -229,6 +249,25 @@ export var portfolioData = [
       "bookstore-frontend/Bookstore_Tablet.png",
       "bookstore-frontend/Bookstore_Phone.png",
     ],
+  },
+  {
+    pid: "438438",
+    name: "ILoveImg-ILovePdf Automation",
+    description: `Created a very useful Automation for Instagram users or influencers who want something to like or comment each & every post of a particular user. <br/>
+    With this Automation, user will give instagram username of other person and bot will open that profile and go through with each & every post to like. <br />
+    For Comments, we have another bot which takes same input as previous and there is a common dataset of comments (user can manipulate it), from that dataset comments will be taken randomly and start commenting all post of that user. <br />
+    <strong>Prerequisite:</strong> Instagram account of Bot Runner must be logged in.`,
+    demo_link: "Soon",
+    source_code: "",
+    category_name: "RPA Automation",
+    category_classname: "filter-rpa",
+    client: "Self-Project",
+    project_date: "Jan 02, 2022",
+    poster_path: "iloveimg-automation/00_ilove_automation.jpg",
+    technologies: ["Robotic Process Automation", "Automation Anywhere"],
+    homescreen_overview: ``,
+    youtube_overview: ``,
+    images: ["iloveimg-automation/00_ilove_automation.jpg"],
   },
   {
     pid: "590629",
