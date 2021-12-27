@@ -77,9 +77,12 @@ import { portfolioData } from "./data.js";
                         item.demo_link
                       }" target="_blank" rel="noopener noreferrer">Click Here</a>
                       </li>
-                      <li><strong>Source Code</strong>: <a href="${
-                        item.source_code
-                      }" target="_blank" rel="noopener noreferrer">Click Here</a>
+                      <li><strong>Source Code</strong>: 
+                      ${
+                        item.source_code !== ""
+                          ? `<a href="${item.source_code}" target="_blank" rel="noopener noreferrer">Click Here</a>`
+                          : "Not Available"
+                      }
                       </li>
                       <li><strong>Tech. Used</strong><i class='bx bxs-chevron-down' style="transform: translateY(1px);"></i>
                         <br />
