@@ -33,6 +33,37 @@ export var portfolioData = [
     ],
   },
   {
+    pid: "100744",
+    name: "Netflix Clone using React",
+    description: `Built a the full-functional replica of Netflix in which user will get the same feel
+    as Netflix such as Search Functionality, Collections, particular Movie Details, Trailers, Screenshots
+    and many more. Also, for the sake of User Experience, pagination functionality is implemented for
+    fast and smooth experience.`,
+    demo_link: "https://rishi-netflixclone.netlify.app",
+    source_code: "https://github.com/rishi6071/netflix-clone-app",
+    category_name: "REACTJS",
+    category_classname: "filter-react",
+    client: "Self-Project",
+    project_date: "Feburary 26, 2022",
+    poster_path: "netflix-clone/00_Netflix_Clone.png",
+    technologies: [
+      "React.js",
+      "JSX",
+      "CSS Flexbox",
+      "Bootstrap 5",
+      "Axios",
+      "ES6 JavaScript",
+    ],
+    homescreen_overview: `netflix-clone/Netflix_Clone_Overview.png`,
+    youtube_overview: ``,
+    images: [
+      "netflix-clone/00_Netflix_Clone.png",
+      "netflix-clone/Netflix_Desktop.png",
+      "netflix-clone/Netflix_Tablet.png",
+      "netflix-clone/Netflix_Phone.png",
+    ],
+  },
+  {
     pid: "882710",
     name: "Weather Forecast",
     description: `Buid a Weather Forecast App which shows REAL-TIME current weather and complete weather for current day in the gap of 2 Hours. Additionally, it shows the Forecast of next 3 days as well. Searching Feature is there to check the weather of any city in the entire world. It is Fully Mobile Responsive and Interactive.<br/>
